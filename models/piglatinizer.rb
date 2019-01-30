@@ -13,7 +13,7 @@ class PigLatinizer
         word << "ay"
     end
     binding.pry
-    self = word_array.join(" ")
+    word_array.join(" ")
   end
 
 end
